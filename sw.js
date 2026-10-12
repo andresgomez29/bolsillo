@@ -1,14 +1,14 @@
 // Bolsillo — service worker: guarda la app en el teléfono para que abra sin internet.
 // Cambia VERSION cada vez que publiques una actualización.
-const VERSION = "bolsillo-v1";
+const VERSION = "bolsillo-v2";
 const SHELL = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png",
-  "./icons/maskable-512.png",
-  "./icons/apple-touch-icon.png"
+  "./icon-192.png",
+  "./icon-512.png",
+  "./maskable-512.png",
+  "./apple-touch-icon.png"
 ];
 
 self.addEventListener("install", (event) => {
