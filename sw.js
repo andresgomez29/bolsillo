@@ -1,6 +1,6 @@
 // Bolsillo — service worker: guarda la app en el teléfono para que abra sin internet.
 // Cambia VERSION cada vez que publiques una actualización.
-const VERSION = "bolsillo-v2";
+const VERSION = "bolsillo-v3";
 const SHELL = [
   "./",
   "./index.html",
